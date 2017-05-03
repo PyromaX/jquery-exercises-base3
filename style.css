@@ -35,3 +35,10 @@ h3{
     box-shadow: 2px 2px 2px #999;
     background-color: #ff0042;
 }
+.rec{
+    margin-top: 10px;
+    width: 40px;
+    height: 10px;
+    border: 2px solid;
+    border-color: black;
+}

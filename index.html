@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title>Jquery exercices base 3</title>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <h1>Exercices Jquery base 3</h1>
@@ -13,11 +15,15 @@
         <!-------------------------------------------- Exercice 1 -------------------------------------->
         <h3><em>Exercice 1</em></h3>
         <p>Céer un bouton et un champ texte dans lequel on affiche le nombre de clics sur le bouton.</p>
-
+            <button id="but_1">Cliquez ici</button>
+            <p id="clics_1" ></p>
         <hr>
         <!-------------------------------------------- Exercice 2 -------------------------------------->
         <h3>Exercice 2</h3>
         <p>Céer 2 boutons ("+" et "-") et un champ texte dans lequel on augmente ou baisse le chiffre en fonction des boutons cliqués</p>
+            <button id="but_2">Augmenter</button>
+            <p id="clics_2" ></p>
+            <button id="but_3">Diminuer</button>
 
         <hr>
         <!-------------------------------------------- Exercice 3 -------------------------------------->
@@ -32,8 +38,12 @@
             <li>Bouton 5 : fait réaparaître le rectangle</li>
         </ul>
         </p>
-
-
+        <button id="E3but_1">Augmente de 10px</button>
+        <button id="E3but_2">attribue le couleur verte</button>
+        <button id="E3but_3">attribue le couleur initiale</button>
+        <button id="E3but_4">disparition du rectangle</button>
+        <button id="E3but_5">réaparition du rectangle</button>
+        <div class="rec"></div>
         <hr>
         <!-------------------------------------------- Exercice 4 -------------------------------------->
         <h3>Exercice 4</h3>
@@ -47,8 +57,10 @@
         <p><b>Bonus</b> : Quand la réponse est trouvée, on obtient le nombre d'essai que l'on a fait.
         </p>
         <hr>
-
-
+        <h4>Trouve le nombre qui est entre 1 et 100</h4>
+        <input class="user" type="text" name="user_" max="100" min="0" placeholder="entrez votre proposition" required="required" >
+        <button id="E4but">essayez</button>
+        <p id="retour"></p>
 
     </body>
 </html>
